@@ -3,7 +3,7 @@ import PlayDemo from "../Atoms/PlayDemo";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center ml-[170px] mr-[69px] ">
+    <div className="flex justify-center ml-[170px] mr-[69px] mb-[240px] ">
       <img src="//bg1.svg" alt="" className="absolute top-0 left-0" />
       <img src="/bg2.svg" alt="" className="absolute top-0 right-0 " />
 
@@ -24,7 +24,7 @@ const Hero = () => {
           to sportsmen it engrossed listening. Park gate sell they west hard for
           the.
         </p>
-        <div className="flex items-center gap-x-[44px] ">
+        <div className="flex items-center gap-x-[44px]  ">
           <FindOutMore />
           <PlayDemo />
         </div>
