@@ -12,7 +12,7 @@ const AppManager = () => {
     <div>
       <Hero />
       <Category />
-      {/* <DestinationSec /> */}
+      <DestinationSec />
       <PaymentSection />
       <Testimonial />
       <Logo />

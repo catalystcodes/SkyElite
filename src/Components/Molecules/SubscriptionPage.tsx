@@ -37,11 +37,11 @@ const SubscriptionPage = () => {
       <img
         src="/telegramIcon.svg"
         alt=""
-        className="absolute top-[3110px] right-[150px]  "
+        className="absolute top-[3910px] right-[150px]  "
       />
       <img
         src="/bg8.svg"
-        className="absolute top-[3450px] right-[70px]  "
+        className="absolute top-[4250px] right-[70px]  "
         alt=""
       />
     </div>

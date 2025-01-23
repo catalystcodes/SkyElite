@@ -9,15 +9,16 @@ const DestinationSec = () => {
       <h2 className="text-center text-deepBlue font-bold text-[50px] mb-[60px]  header">
         Top Destinations
       </h2>
-      <span>
-        <DestinationCard
-          backgroundImage={"/italy.svg"}
-          capitalName=""
-          countryName=""
-          price={15.42}
-          tripDays={10}
-        />
+      <span className="flex justify-around">
+        <DestinationCard backgroundImage={"/italy.svg"} />{" "}
+        <DestinationCard backgroundImage={"/londonImage.svg"} />{" "}
+        <DestinationCard backgroundImage={"/euro.svg"} />
       </span>
+      <img
+        src="bg5.svg"
+        alt=""
+        className="absolute right-[70px] top-[2034px] z-[-1]"
+      />
     </div>
   );
 };

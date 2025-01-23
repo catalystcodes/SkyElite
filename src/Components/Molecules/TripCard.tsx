@@ -24,10 +24,10 @@ const TripCard = () => {
           <img src="fav.svg" alt="" />
         </span>
       </div>
-      <div className="absolute bottom-[-1264px] right-[153px]">
+      <div className="absolute bottom-[-2065px] right-[153px]">
         <OngoingTripCard />
       </div>
-      <div className="absolute bottom-[-1390px] right-[90px] z-[-1]">
+      <div className="absolute bottom-[-2165px] right-[90px] z-[-1]">
         <img src="/bg6.svg" alt="" />
       </div>
     </div>

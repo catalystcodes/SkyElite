@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="flex justify-center ml-[170px] mr-[69px] mb-[240px] ">
       <img src="//bg1.svg" alt="" className="absolute top-0 left-0" />
       <img src="/bg2.svg" alt="" className="absolute top-0 right-0 " />
-
+      <img src="/bg9.svg" alt="" className="absolute top-[4500px] right-0 " />
       <div className="mt-[82px]">
         <p className="font-bold text-sm text-deepBrown">
           BEST DESTINATION AROUND THE WORLD

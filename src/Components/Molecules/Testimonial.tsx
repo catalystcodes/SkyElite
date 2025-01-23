@@ -18,7 +18,7 @@ const Testimonial = () => {
             name="Mike taylor"
           />
         </div>
-        <div className="absolute top-[2575px] left-[830px]  z-[-1]">
+        <div className="absolute top-[3380px] left-[830px]  z-[-1]">
           <TestimonialCard
             testimonial="On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."
             location="CEO of Red Button"
@@ -28,11 +28,11 @@ const Testimonial = () => {
         <img
           src="/avatar.svg"
           alt=""
-          className="absolute left-[730px] top-[2450px] "
+          className="absolute left-[730px] top-[3250px] "
         />
       </div>
       <div className="ml-[66px]"></div>
-      <img src="/arrowUpAndDown.svg" alt="" className="mt-[16.5px]" />
+      <img src="/arrowUpAndDown.svg" alt="" className="mt-[50.5px]" />
     </div>
   );
 };
