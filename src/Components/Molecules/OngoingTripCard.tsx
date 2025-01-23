@@ -1,6 +1,6 @@
 const OngoingTripCard = () => {
   return (
-    <div className="bg-white w-[264px] rounded-[18px] pl-[19px] pt-[17px]">
+    <div className="bg-white w-[264px] rounded-[18px] pl-[19px] pt-[17px] pb-[24px] shadow-md">
       <div className="flex  items-center gap-x-[12px] ">
         <img src="/romeMini.svg" alt="" className="rounded-full" />
         <span>
