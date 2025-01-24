@@ -2,7 +2,7 @@ import OngoingTripCard from "./OngoingTripCard";
 
 const TripCard = () => {
   return (
-    <div className="bg-white pt-[13px] pl-[25px] pr-[25px] rounded-[26px] mb-[207px]">
+    <section className="bg-white pt-[13px] pl-[25px] pr-[25px] rounded-[26px]  relative shadow-lg ">
       <img src="/tripImage.svg" alt="" />
       <div>
         <p className="text-[16px] font-normal mt-[26px] mb-[5px]">
@@ -24,13 +24,16 @@ const TripCard = () => {
           <img src="fav.svg" alt="" />
         </span>
       </div>
-      <div className="absolute bottom-[-2065px] right-[153px]">
+      <div className="absolute bottom-16 -right-[103px]">
         <OngoingTripCard />
       </div>
-      <div className="absolute bottom-[-2165px] right-[90px] z-[-1]">
-        <img src="/bg6.svg" alt="" />
-      </div>
-    </div>
+
+      <img
+        src="/bg6.svg"
+        alt=""
+        className="absolute bottom-[140px] left-[100px] z-[-1]"
+      />
+    </section>
   );
 };
 

@@ -3,14 +3,15 @@ import TripCard from "./TripCard";
 
 const PaymentSection = () => {
   return (
-    <div className="ml-[170px]">
-      <p className=" text-lg font-semibold text-[#5E6282]">Easy and Fast</p>
-      <h2 className=" text-deepBlue font-bold text-[50px] w-[511px]  header">
-        Book your next trip in 3 easy steps
-      </h2>
-
-      <div className="flex items-center justify-between pr-[255px]">
+    <div className="ml-[170px] mb-[207px]">
+      <div className="flex  justify-between pr-[255px]">
         <div>
+          <p className=" text-lg font-semibold text-[#5E6282] ">
+            Easy and Fast
+          </p>
+          <h2 className=" text-deepBlue font-bold text-[50px] w-[511px]  mb-[31px]  header">
+            Book your next trip in 3 easy steps
+          </h2>
           <div className="flex flex-col gap-y-[48px]">
             <NextTripSection
               description="Lorem ipsum dolor sit amet, consectetur 
@@ -33,7 +34,9 @@ adipiscing elit. Urna, tortor tempus. "
             />
           </div>
         </div>
-        <TripCard />
+        <div className="mt-[58px]">
+          <TripCard />
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 const Logo = () => {
   return (
-    <div className="flex items-center mt-[96px] mb-[111px] justify-around">
+    <div className="flex justify-center gap-x-24 mt-[96px] mb-[111px] ">
       <img src="/axonIcon.svg" alt="" />
       <img src="/jetstar.svg" alt="" />
       <img src="/expedia.svg" alt="" />

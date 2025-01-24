@@ -34,15 +34,15 @@ const Footer = () => {
       <div>
         <span className="flex">
           <img src="/facebook.svg" alt="" />
-          <img src="/public/instagram .svg" alt="dddd" className="" />
+          <img src="/instagram .svg" alt="dddd" className="" />
           <img src="/twitter .svg" alt="" />
         </span>
         <p className="mb-[16px] mt-[26px]  text-[#5E6282] font-medium text-[20px]">
           Discover our app
         </p>
         <span className="flex gap-x-[7px]">
-          <img src="/public/Google Play.svg" alt="" />
-          <img src="/public/Play Store.svg" alt="" />
+          <img src="/Google Play.svg" alt="" />
+          <img src="/Play Store.svg" alt="" />
         </span>
       </div>
     </div>

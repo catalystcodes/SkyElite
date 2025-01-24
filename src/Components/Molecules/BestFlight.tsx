@@ -6,8 +6,8 @@ interface CategoryCardProps {
 
 const BestFlight = ({ header, description, image }: CategoryCardProps) => {
   return (
-    <div className=" ">
-      <div className="flex flex-col items-center rounded-[36px] w-[267px] h-[314px] pr-[43px] pl-[44px] bg-white ease-in duration-300 z-10 ">
+    <div className="relative">
+      <div className="flex flex-col items-center rounded-[36px] w-[267px] h-[314px] pr-[43px] pl-[44px] bg-white ease-in duration-300 z-20 ">
         <img src={image} alt="category-image  " />
         <h1 className="text-center font-semibold text-[18px]  mb-[15px]">
           {header}
@@ -16,8 +16,8 @@ const BestFlight = ({ header, description, image }: CategoryCardProps) => {
       </div>
       <img
         src="/bg3.svg"
-        alt=""
-        className="absolute bottom-[-630px] right-[1080px] z-[-1]  "
+        alt="dd"
+        className="absolute -bottom-7 -left-7 -z-10"
       />
     </div>
   );

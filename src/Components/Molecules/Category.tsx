@@ -3,7 +3,7 @@ import CategoryCard from "./CategoryCard";
 
 const Category = () => {
   return (
-    <div className="mb-[156px]">
+    <section className="mb-[156px]">
       <span className="flex justify-center items-center mb-[65px] mr-[56px]">
         <span className="flex-grow">
           <p className="text-center text-lg font-semibold text-[#5E6282]">
@@ -40,7 +40,7 @@ const Category = () => {
           image="/settingIco.svg"
         />
       </span>
-    </div>
+    </section>
   );
 };
 
