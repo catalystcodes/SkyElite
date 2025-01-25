@@ -2,7 +2,7 @@ import SubFooter from "./subFooter";
 
 const Footer = () => {
   return (
-    <div className="flex justify-around mt-[166px] mb-[84px]">
+    <footer className="flex justify-around mt-[166px] mb-[84px]">
       <div>
         <p className="text-[44px] font-medium text-[#181E4B] mb-[16px]">
           Jadoo.
@@ -45,7 +45,7 @@ const Footer = () => {
           <img src="/Play Store.svg" alt="" />
         </span>
       </div>
-    </div>
+    </footer>
   );
 };
 
